@@ -19,7 +19,7 @@ variable "cluster_name" {
 }
 
 variable "env" {
-  default     = "rds-aurora"
+  default     = "test-db"
   type        = string
   description = "Environment for the rds cluster"
 }

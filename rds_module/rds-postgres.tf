@@ -29,7 +29,7 @@ resource "aws_security_group" "rds" {
 
 resource "aws_db_subnet_group" "rds-subnet" {
   name       = "${var.db-name}-postgres-db-subnet"
-  subnet_ids = [var.public-subnet-1]
+  subnet_ids = [var.public-subnet-1,var.public-subnet-2]
 
   tags = {
     Name        = "${var.db-name}-postgres-db-subnet"

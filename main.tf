@@ -10,7 +10,7 @@ module "rds_module" {
   source           = "./rds_module"
   
   env              = var.env
-  db-name          = "rds-cluster-test"
+  db-name          = "develop"
   db-username      = var.db_username
   db-password      = var.db_password
   
