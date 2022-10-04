@@ -1,7 +1,7 @@
-# RDS-Aurora-Postgres-Cluster
+# RDS-Aurora-Postgres-Cluster:
 This Repository can be used for creating AWS RDS Aurora PostgresSQL  Cluster with one writer instance.
 
-## Terraform `init` command
+## Terraform `init` command:
 
 First Run terraform init to install all modules required by this configuration.
 
@@ -9,10 +9,10 @@ First Run terraform init to install all modules required by this configuration.
 
 ## Export Variable required to apply the configuration:
 
-         * export TF_VAR_db_username=<db_username>
-         * export TF_VAR_db_password=<"db_password">
-         * export TF_VAR_access_key=<your_aws_access_key>
-         * export TF_VAR_secret_key=<your_aws_secret_key>
+         export TF_VAR_db_username=<db_username>
+         export TF_VAR_db_password=<"db_password">
+         export TF_VAR_access_key=<your_aws_access_key>
+         export TF_VAR_secret_key=<your_aws_secret_key>
 
 ## Terrform `plan` command:
 
