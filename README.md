@@ -5,26 +5,26 @@ This Repository can be used for creating AWS RDS Aurora PostgresSQL  Cluster wit
 
 First Run terraform init to install all modules required by this configuration.
 
-`terrform init`
+        terrform init
 
-## Export Variable required to apply the configuration
+## Export Variable required to apply the configuration:
 
-* `export TF_VAR_db_username=<db_username>`
-* `export TF_VAR_db_password=<"db_password">`
-* `export TF_VAR_access_key=<your_aws_access_key>`
-* `export TF_VAR_secret_key=<your_aws_secret_key>`
+         * export TF_VAR_db_username=<db_username>
+         * export TF_VAR_db_password=<"db_password">
+         * export TF_VAR_access_key=<your_aws_access_key>
+         * export TF_VAR_secret_key=<your_aws_secret_key>
 
-## Terrform `plan` command
+## Terrform `plan` command:
 
 To Generates a speculative execution plan run terraform plan command.
 
-`terrform plan`
+        terrform plan
 
 ## Applying the terraform script:
 
-`terraform apply`
+        terraform apply
 
 
 ## You can destory the resource using below command :
 
-`terraform destroy`
+        terraform destroy
